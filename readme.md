@@ -37,3 +37,11 @@ These tasks should be executed on infected computer:
 - **After running option 2 you will need to manually take out any potentially original file names from output_file.txt file list by yourself. To do this, open output_file.txt in notepad, delete the original file name row (for example, C:\laragon\bin\git\mingw64\bin\git.exe, C:\laragon\bin\git\usr\bin\gkill.exe), then save.** This is to prevent script accidentally removing letter g from untouched .exe file name. Guide on how to find whether file listed is having its original name or not is shown after option 2 is done running.
 - Scripts tested on python version 3.10 and powershell 5.1. Script might work on python 2.7 and 3.x but untested on powershell 2.0.
 - Its preferred to run the powershell script version, but you can always try running each version (not simultaneously).
+
+## Other solution for Ground.exe problem
+
+In case this script doesn't work well for you, heres another repository and reference on solving the same Ground.exe virus:
+- [by onellvine](https://github.com/onellvine/Remove-Ground.exe)
+- [by alejocp00](https://github.com/alejocp00/GroundFix)
+- [by omarahm3](https://github.com/omarahm3/ground_cleaner)
+- [write-up by fuping](https://fuping.site/2022/10/28/Ground-Virus-Kill/)
