@@ -2,7 +2,7 @@
 
 This script function is to recover executable (.exe) files on computer that got infected by [Ground.exe, trojan.renamer/grenam or Win32.Grenam.G](https://www.virustotal.com/gui/file/14d875b242fba6b740b407557bca98fd86c59bda7aa0163c5401cef432b2795e)
 Please make sure computer that got infected by the trojan/virus/worm is completely disinfected (no Ground.exe or its drop files running) before running this script.
-Also **make sure the grenamer trojan you got infected by is the variant that only rename original file and not also infect it ** since this script can't handle that.
+Also **make sure the grenamer trojan you got infected by is the variant that only rename original file and not also infect it** since this script can't handle that.
 This script works by renaming back executable (.exe) files that got renamed into g(filename).exe file name pattern.
 
 ## Step-by-step on cleaning Ground.exe
